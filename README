@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=337
+
+VTags is a tags file generator, written entirely in Vim.
+
+It currently supports only the PHP and Vim languages, but adding a new
+language should be trivial. 
+
+The speed is not one of the best around yet, but I'm working on this.
+
+This one being the first release, it's quite in alpha stage. The
+language definitions are experimental, to verify that the parsing engine
+works. The parser only works on full lines, so if a line contains more,
+say, function definitions, only the first one will be taken. I will be
+working on supporting multiple definitions in one line, but _after_
+I get the speed fixed :)
+It's the first unstable slow alpha testing thing. Be kind with me ;)
+
+Any feedback would be very much appreciated.
+
+Requires: vimscript #338 (vtags_def)
